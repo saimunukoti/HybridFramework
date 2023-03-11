@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Application Setting up]]>
+    </line>
+    <line>
+      <![CDATA[Application running]]>
+    </line>
+    <line>
+      <![CDATA[Setting Reports]]>
+    </line>
+    <line>
+      <![CDATA[Reports >> generated]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-03-11T22:54:12 IST" name="Default suite" finished-at="2023-03-11T22:54:15 IST" duration-ms="3807">
+    <groups>
+    </groups>
+    <test started-at="2023-03-11T22:54:12 IST" name="Default test" finished-at="2023-03-11T22:54:15 IST" duration-ms="3807">
+      <class name="com.redbusTests.Test1">
+        <test-method is-config="true" signature="excelSetup()[pri:0, instance:com.redbusTests.Test1@4fb61f4a]" started-at="2023-03-11T22:54:11 IST" name="excelSetup" finished-at="2023-03-11T22:54:12 IST" duration-ms="658" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- excelSetup -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.redbusTests.Test1@4fb61f4a]" started-at="2023-03-11T22:54:12 IST" name="setup" finished-at="2023-03-11T22:54:15 IST" duration-ms="3035" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Application Setting up]]>
+            </line>
+            <line>
+              <![CDATA[Application running]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="logintoApp()[pri:0, instance:com.redbusTests.Test1@4fb61f4a]" started-at="2023-03-11T22:54:15 IST" name="logintoApp" finished-at="2023-03-11T22:54:15 IST" duration-ms="205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintoApp -->
+        <test-method is-config="true" signature="ScreenShort(org.testng.ITestResult)[pri:0, instance:com.redbusTests.Test1@4fb61f4a]" started-at="2023-03-11T22:54:15 IST" name="ScreenShort" finished-at="2023-03-11T22:54:15 IST" duration-ms="539" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=logintoApp status=SUCCESS method=Test1.logintoApp()[pri:0, instance:com.redbusTests.Test1@4fb61f4a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Setting Reports]]>
+            </line>
+            <line>
+              <![CDATA[Reports >> generated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ScreenShort -->
+      </class> <!-- com.redbusTests.Test1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
